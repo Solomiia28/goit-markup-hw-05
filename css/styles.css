@@ -496,3 +496,34 @@ img{
 .frame-icon-footer{
     fill: #f4f4fd;
 }
+/* Modal */
+/* End Modal*/
+
+.backdrop{
+    position: fixed;
+    inset: 0;
+    background-color: rgba(46, 47, 66, 0.40);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.is-hidden{
+    display: none;
+}
+.modal {
+    position: relative;
+    width:408px;
+    background-color:#FCFCFC;
+    border-radius:4px;
+    padding-top: 72px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+}
+.modal-close{
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    
+
+}
