@@ -511,7 +511,7 @@ img{
     justify-content: center;
     transition: ;
 }
-.is-hidden{
+.is-open{
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
@@ -528,7 +528,7 @@ img{
     padding-bottom: 24px;
     transform: scale(1);
 }
-.backdrop.is-hidden .modal{
+.backdrop.is-open.modal{
     transform: scale(0);
 
 }
