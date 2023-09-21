@@ -499,28 +499,40 @@ img{
 /* Modal */
 /* End Modal*/
 
-.backdrop{
+.backdrop {
     position: fixed;
     inset: 0;
-    background-color: rgba(46, 47, 66, 0.40);
-    display:flex;
+    background-color:rgba(46, 47, 66, 0.40);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    display: flex;
     align-items: center;
     justify-content: center;
+    transition: ;
 }
 .is-hidden{
-    display: none;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
 }
+
 .modal {
     position: relative;
-    width:408px;
+    width: 408px;
     background-color:#FCFCFC;
-    border-radius:4px;
+    border-radius: 4px;
     padding-top: 72px;
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 24px;
+    transform: scale(1);
 }
-.modal-close{
+.backdrop.is-hidden .modal{
+    transform: scale(0);
+
+}
+.modal-close {
     position: absolute;
     top: 24px;
     right: 24px;
