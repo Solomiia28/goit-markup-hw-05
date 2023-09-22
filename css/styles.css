@@ -565,3 +565,9 @@ img{
     background-color: #404bbf;
     border: none;
 }
+.modal .modal-close:hover{
+    fill: #ffffff;
+}
+.modal .modal-close:focus{
+    fill: #ffffff;
+}
