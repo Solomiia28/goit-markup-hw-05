@@ -519,9 +519,11 @@ img{
 }
 
 .modal {
-    position: relative;
+    position: absolute;
     width: 408px;
     min-height: 584px;
+    top: 50%;
+    left: 50%;
     background-color:#FCFCFC;
     border-radius: 4px;
     padding-top: 72px;
