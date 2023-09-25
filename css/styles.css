@@ -544,7 +544,7 @@ img{
 /* Modal */
 /* End Modal*/
 
-.backdrop {
+.backdrop{
     position: fixed;
     inset: 0;
     background-color:rgba(46, 47, 66, 0.40);
@@ -563,7 +563,7 @@ img{
     pointer-events: auto;
 }
 
-.modal {
+.modal{
     position: absolute;
     width: 408px;
     min-height: 584px;
@@ -586,7 +586,7 @@ img{
     transform: scale(0);
 
 }
-.modal-close {
+.modal-close{
     position: absolute;
     top: 24px;
     right: 24px;
@@ -604,6 +604,9 @@ img{
 }
 .close-icon{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.close-icon:focus{
+    fill: #4D5AE5;
 }
 .p-modal{
     font-weight: 500;
