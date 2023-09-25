@@ -621,27 +621,11 @@ img{
 .user-data{
     margin-bottom: 8px;
 }
-.user-name{
+.user-personal-data{
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color:#8e8f99;
-    display: block;
-    margin-bottom: 4px;
-}
-.user-tel{
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: #8e8f99;
-    display: block;
-    margin-bottom: 4px;
-}
-.user-email{
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: #8e8f99;
     display: block;
     margin-bottom: 4px;
 }
