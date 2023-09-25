@@ -545,7 +545,7 @@ img{
 /* End Modal*/
 
 .backdrop{
-    position: fixed;
+    position:fixed;
     inset: 0;
     background-color:rgba(46, 47, 66, 0.40);
     opacity: 0;
@@ -604,6 +604,7 @@ img{
 }
 .close-icon{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .close-icon:focus{
     fill: #4D5AE5;
@@ -713,6 +714,11 @@ img{
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+}
+.checkbox-user-privacy{
+    background-color:#404bbf;
+    border:none;
+    fill: #F4F4FD;
 }
 .privacy-span{
     width: 16px;
