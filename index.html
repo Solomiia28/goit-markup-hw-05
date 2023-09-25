@@ -321,12 +321,10 @@
                 </div>
                 </div>
                 <div class="subscribe-footer">
-                    <p>Subscribe</p>
+                    <p class="">Subscribe</p>
                     <form name="subscribe">
-                        <div>
-                            <label for="E-mail"></label>
-                            <input id="user-E-mail" type="email" name="user-E-mail" placeholder="E-mail"/>
-                        </div>
+                            <label for="E-mail">
+                            <input id="user-E-mail" type="email" name="user-E-mail" placeholder="E-mail"/></label>
                         <button class="button-subscribe" type="submit">Subscribe
                         <svg class="subscribe-icon" width="24" height="24">
                             <use href="./images/icons.svg#icon-icon-send"></use>
@@ -336,30 +334,30 @@
                 </div>
                 
         </footer>
-        <div class="backdrop is-open">
+        <div class="backdrop is-open" data-modal>
             <div class="modal">
-                <button class="modal-close" type="button" close>X
-                    <svg class="close" width="8" height="8">
+                <button class="modal-close" type="button" data-modal-close >
+                    <svg class="close-icon" width="8" height="8">
                         <use href="./images/icons.svg#icon-close-black"></use>
                     </svg>
                 </button>
                 <h2>Leave your contacts and we will call you back</h2>
-                <form name="contact-form">
-                    <div>
-                    <label for="user-name">Name</label>
-                    <input id="user-name" type="text" name="user-name"/>
+                <form class="contact-form">
+                    <div class="">
+                    <label for="user-name">Name
+                    <input id="user-name" type="text" name="user-name"/></label>
                     </div>
                     <div>
-                        <label for="user-tel">Phone</label>
-                        <input id="user-tel" type="tel" name="user-tel" />
+                        <label for="user-tel">Phone
+                        <input id="user-tel" type="tel" name="user-tel" /></label>
                     </div>
-                    <div>
-                        <label for="user-email">Email</label>
-                        <input id="user-email" type="email" name="user-email"/>
+                    <div class="">
+                        <label for="user-email">Email
+                        <input id="user-email" type="email" name="user-email"/></label>
                     </div>
-                    <div>
-                    <label for="user-comment">Comment</label>
-                    <textarea id="user-comment" name="user-comment" placeholder="Text input"></textarea>
+                    <div class="">
+                    <label for="user-comment">Comment
+                    <textarea id="user-comment" name="user-comment" placeholder="Text input"></textarea></label>
                     </div>
                     <button type="submit">Send</button>
                 </form>
