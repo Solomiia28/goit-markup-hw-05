@@ -502,10 +502,14 @@ img{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
+    padding-left: 80px;
 }
 .form-subscribe{
     display: flex;
     gap: 24px;
+}
+.footer-email{
+    padding-left: 80px;
 }
 .footer-email-input{
     width: 264px;
@@ -579,7 +583,7 @@ img{
                0px 1px 3px rgba(0, 0, 0, 0.12),
                0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transform: scale(1);
+    transform: translate(-50%, -50%) scale(1);
 
 }
 .backdrop.is-open.modal{
@@ -621,27 +625,11 @@ img{
 .user-data{
     margin-bottom: 8px;
 }
-.user-name{
+.user-information{
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color:#8e8f99;
-    display: block;
-    margin-bottom: 4px;
-}
-.user-tel{
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: #8e8f99;
-    display: block;
-    margin-bottom: 4px;
-}
-.user-email{
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: #8e8f99;
     display: block;
     margin-bottom: 4px;
 }
