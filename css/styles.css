@@ -625,6 +625,9 @@ img{
 .user-data{
     margin-bottom: 8px;
 }
+.input-icon-data:focus + .icon-data{
+    fill: #4D5AE5;
+}
 .user-information{
     font-size: 12px;
     line-height: 1.17;
